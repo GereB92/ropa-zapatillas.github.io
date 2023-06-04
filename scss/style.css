@@ -1,33 +1,33 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .textoPrincipal {
   display: flex;
   justify-content: center;
   padding: 7px;
-}
-.textoPrincipal p {
-  font-size: 23px;
-  color: red;
-  font-weight: bold;
+  align-items: center;
 }
 .textoPrincipal div {
-  font-size: 23px;
-  margin-left: 6px;
+  font-size: 20px;
+  color: rgb(211, 40, 40);
+  font-weight: bold;
+  align-items: center;
 }
 
 .contenedorNavbar {
   display: flex;
   justify-content: space-evenly;
   background-color: rgb(211, 40, 40);
-  align-items: center;
-  max-height: auto;
+  max-height: 90px;
   padding: 15px;
+  align-items: center;
 }
 .contenedorNavbar .logo p {
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   font-weight: bold;
 }
@@ -37,12 +37,86 @@
   list-style: none;
 }
 .contenedorNavbar .nav ul li {
-  padding: 20px;
+  font-size: 20px;
   color: white;
+  margin-left: 20px;
 }
 .contenedorNavbar .iconos {
   display: flex;
 }
 .contenedorNavbar .iconos p {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.carrusel {
+  margin-top: 10px;
+}
+
+.contenedorArticle {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contenedorArticle p {
+  background-color: rgb(211, 40, 40);
+  color: white;
+  margin-top: 20px;
+  border-radius: 16px;
+  padding: 12px;
+  font-size: 18px;
+}
+
+.imgArticle {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 12px;
+}
+.imgArticle img {
+  height: 250px;
+}
+
+h1 {
+  font-size: 27px;
+  font-weight: bold;
+  text-align: start;
+  margin-top: 40px;
+}
+
+.contenerdorProductos {
+  display: flex;
+  justify-content: space-between;
+}
+.contenerdorProductos img {
+  max-width: 250px;
+}
+.contenerdorProductos h2 {
+  font-size: 15px;
+  text-align: center;
+}
+.contenerdorProductos p {
+  text-align: center;
+  font-weight: bold;
+}
+
+form {
+  padding: 30px;
+}
+
+.contenedorFormulario {
+  text-align: center;
+  border: 1px solid;
   padding: 10px;
+}
+.contenedorFormulario h3 {
+  font-weight: bold;
+}
+.contenedorFormulario .botonSus input {
+  width: 50%;
+  padding: 5px;
+}
+.contenedorFormulario .botonSus button {
+  font-weight: bold;
+  padding: 5px;
+  background-color: rgb(207, 102, 102);
+  color: white;
 }/*# sourceMappingURL=style.css.map */
