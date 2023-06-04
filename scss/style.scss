@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+// TEXTO PRINCIPAL
+
+.textoPrincipal {
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+
+    p {
+        font-size: 23px;
+        color: red;
+        font-weight: bold;
+    }
+
+    div {
+        font-size: 23px;
+        margin-left: 6px;
+    }
+}
+
+// NAVBAR
+
+.contenedorNavbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(211, 40, 40);
+    align-items: center;
+    max-height: auto;
+    padding: 15px;
+
+    .logo {
+        p {
+            font-size: 40px;
+            color: white;
+            font-weight: bold;
+        }
+    }
+
+
+    .nav ul {
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+
+        li {
+            padding: 20px;
+            color: white;
+        }
+    }
+
+    .iconos {
+        display: flex;
+        
+        p{
+            padding: 10px;
+        }
+    }
+}

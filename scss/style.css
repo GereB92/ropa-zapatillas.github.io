@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.textoPrincipal {
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+}
+.textoPrincipal p {
+  font-size: 23px;
+  color: red;
+  font-weight: bold;
+}
+.textoPrincipal div {
+  font-size: 23px;
+  margin-left: 6px;
+}
+
+.contenedorNavbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(211, 40, 40);
+  align-items: center;
+  max-height: auto;
+  padding: 15px;
+}
+.contenedorNavbar .logo p {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+.contenedorNavbar .nav ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+.contenedorNavbar .nav ul li {
+  padding: 20px;
+  color: white;
+}
+.contenedorNavbar .iconos {
+  display: flex;
+}
+.contenedorNavbar .iconos p {
+  padding: 10px;
+}/*# sourceMappingURL=style.css.map */
