@@ -80,11 +80,14 @@ h1 {
   font-weight: bold;
   text-align: start;
   margin-top: 40px;
+  padding: 10px;
+  border-bottom: 2px solid;
 }
 
 .contenerdorProductos {
   display: flex;
   justify-content: space-between;
+  padding: 40px;
 }
 .contenerdorProductos img {
   max-width: 250px;
@@ -92,6 +95,8 @@ h1 {
 .contenerdorProductos h2 {
   font-size: 15px;
   text-align: center;
+  width: 250px;
+  height: 40px;
 }
 .contenerdorProductos p {
   text-align: center;
@@ -106,6 +111,7 @@ form {
   text-align: center;
   border: 1px solid;
   padding: 10px;
+  border-radius: 10px;
 }
 .contenedorFormulario h3 {
   font-weight: bold;
