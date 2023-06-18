@@ -37,16 +37,8 @@
         }
     }
 
-    .nav ul {
-        display: flex;
-        text-decoration: none;
-        list-style: none;
-
-        li {
-            font-size: 20px;
-            color: white;
-            margin-left: 20px;
-        }
+    input {
+        width: 500px;
     }
 
     .iconos {
@@ -59,10 +51,21 @@
     }
 }
 
-// CARRUSEL
-.carrusel {
-    margin-top: 10px;
+.navBar {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0;
+
+    li {
+        align-items: center;
+    }
 }
+
+// CARRUSEL
+
 
 // ARTICLE
 .contenedorArticle {
@@ -90,7 +93,6 @@
 }
 
 // PRODUCTOS
-
 h1 {
     font-size: 27px;
     font-weight: bold;
@@ -123,7 +125,6 @@ h1 {
 }
 
 // FORMULARIO
-
 form {
     padding: 30px;
 }
@@ -149,6 +150,33 @@ form {
             padding: 5px;
             background-color: rgb(207, 102, 102);
             color: white;
+        }
+    }
+}
+
+// MARCAS
+.contenedorMarcas {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+    img {
+        width: 155px;
+    }
+}
+
+// FOOTER
+Footer {
+    background-color: rgb(220, 220, 220);
+
+    .contenedorFooter {
+        h3 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 14px;
         }
     }
 }
