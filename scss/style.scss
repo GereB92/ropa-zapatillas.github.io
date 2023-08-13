@@ -1,3 +1,5 @@
+@import "./partials/mujer";
+
 * {
     padding: 0;
     margin: 0;
@@ -58,13 +60,18 @@
     font-weight: bold;
     padding: 20px;
     margin: 0;
+    border-bottom: 1px solid;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
 
     li {
         align-items: center;
+        font-size: 18px;
     }
 }
-
-// CARRUSEL
 
 
 // ARTICLE
